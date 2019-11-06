@@ -9,8 +9,8 @@
 .code
 
 GlobalAddition		proc
-					push ebp,
-					push esp, esp
+					push ebp
+					mov esp, esp
 					
 					mov al, [ebp+8]
 					add [GlChar], al
