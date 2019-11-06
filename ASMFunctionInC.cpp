@@ -16,6 +16,14 @@ extern "C" short GlShort = 20;
 extern "C" int GlInt = 30;
 extern "C" long long GlLongLong = 40;
 
+//conditional jumps
+extern "C" int SignedMinA(int a, int b, int c);
+extern "C" int SignedMaxA(int a, int b, int c);
+
+//conditional using moves
+extern "C" int SignedMinB(int a, int b, int c);
+extern "C" int SignedMaxB(int a, int b, int c);
+
 
 int main()
 {
